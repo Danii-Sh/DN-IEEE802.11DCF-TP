@@ -1,0 +1,12 @@
+
+%%%%%%%%%% n ra vared kone!!!!!!!
+%%%%%%%%%% ya felan n = 4
+
+syms t p;
+sol = solve(t == (2*(1-2*p))/((3*(1-2*p))+(3*p*(1-(2*p)^5))), p ==1-((1-t)^(n-1));
+
+
+
+
+%%%% further Reading 
+%%%% http://people.clarkson.edu/~wwilcox/ES100/eqsolve.htm
