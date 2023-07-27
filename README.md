@@ -1,13 +1,18 @@
 # DN-IEEE802.11DCF-TP
-Implementing IEEE802.11DCF-TP 
 
-\title Introduction
-DN-IEEE802.11DCF-TP, or Distributed Neighbor Discovery-IEEE 802.11 Distributed Coordination Function-Transmission Power, is a technique used to improve the performance of wireless networks by reducing the amount of collisions that occur.
+As a Computer assignment for Data Networks course an analysis on IEEE 802.11 DCF mode was done. 
 
-DN-IEEE802.11DCF-TP works by allowing nodes to dynamically adjust their transmission power based on the number of neighboring nodes that are also transmitting. This helps to ensure that only one node is transmitting at a time, which reduces the number of collisions.
+The work started by examining the Markov model presented in `Performance analysis of the IEEE 802.11 distributed coordination function`
+by G.Bianchi which can be accesed at  `https://ieeexplore.ieee.org/document/840210`.
 
-\title Main Takeaways and Contribution
-In this project, we estimate the throughput of IEEE protocol both in theory and simulation.
+The assignment required us to model the CSMA/CA mode, and derive the **throughput** using 3 different approaches.
 
+**1-** First method is done by coding an analytical solution for a part of the computer assignment which uses the equations derived in the paper.
+A code using C++ and also a simpler one which uses MATLAB functions is presented.
 
-\title Where to look 
+**2-** Second method, which was the main contribution and challenge required me to study the CSMA/CA mode in detail and using the specific variables,
+simulate the channel contention between different users, which was done in C++.
+
+**3-** Last method used ns-3 simulator and without getting into details of protocol, got us familiar with tools like `WAF` and report generation.
+
+Different approaches and the differences was reported as the assignment results.
