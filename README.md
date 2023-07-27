@@ -2,8 +2,10 @@
 
 As a Computer assignment for Data Networks course an analysis on IEEE 802.11 DCF mode was done. 
 
-The work started by examining the Markov model presented in `Performance analysis of the IEEE 802.11 distributed coordination function`
-by G.Bianchi which can be accesed at  `https://ieeexplore.ieee.org/document/840210`.
+The work started by examining the Markov model presented in
+`Performance analysis of the IEEE 802.11 distributed coordination function`
+by G.Bianchi which can be accesed at 
+`https://ieeexplore.ieee.org/document/840210`.
 
 The assignment required us to model the CSMA/CA mode, and derive the **throughput** using 3 different approaches.
 
